@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		1C1189E01D9D7AE500338FE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1189DF1D9D7AE500338FE7 /* main.m */; };
 		1C1189E31D9D7AE500338FE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1189E21D9D7AE500338FE7 /* AppDelegate.m */; };
-		1C1189E61D9D7AE500338FE7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1189E51D9D7AE500338FE7 /* ViewController.m */; };
 		1C1189E91D9D7AE500338FE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C1189E71D9D7AE500338FE7 /* Main.storyboard */; };
 		1C1189EB1D9D7AE500338FE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C1189EA1D9D7AE500338FE7 /* Assets.xcassets */; };
 		1C1189EE1D9D7AE500338FE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C1189EC1D9D7AE500338FE7 /* LaunchScreen.storyboard */; };
+		1C1189F71D9D7F7800338FE7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1189F61D9D7F7800338FE7 /* FirstViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +20,12 @@
 		1C1189DF1D9D7AE500338FE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1C1189E11D9D7AE500338FE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1C1189E21D9D7AE500338FE7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1C1189E41D9D7AE500338FE7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1C1189E51D9D7AE500338FE7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1C1189E81D9D7AE500338FE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1C1189EA1D9D7AE500338FE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C1189ED1D9D7AE500338FE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C1189EF1D9D7AE500338FE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C1189F51D9D7F7800338FE7 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		1C1189F61D9D7F7800338FE7 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +60,8 @@
 			children = (
 				1C1189E11D9D7AE500338FE7 /* AppDelegate.h */,
 				1C1189E21D9D7AE500338FE7 /* AppDelegate.m */,
-				1C1189E41D9D7AE500338FE7 /* ViewController.h */,
-				1C1189E51D9D7AE500338FE7 /* ViewController.m */,
+				1C1189F51D9D7F7800338FE7 /* FirstViewController.h */,
+				1C1189F61D9D7F7800338FE7 /* FirstViewController.m */,
 				1C1189E71D9D7AE500338FE7 /* Main.storyboard */,
 				1C1189EA1D9D7AE500338FE7 /* Assets.xcassets */,
 				1C1189EC1D9D7AE500338FE7 /* LaunchScreen.storyboard */,
@@ -149,8 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C1189E61D9D7AE500338FE7 /* ViewController.m in Sources */,
 				1C1189E31D9D7AE500338FE7 /* AppDelegate.m in Sources */,
+				1C1189F71D9D7F7800338FE7 /* FirstViewController.m in Sources */,
 				1C1189E01D9D7AE500338FE7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +300,7 @@
 				1C1189F41D9D7AE500338FE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
