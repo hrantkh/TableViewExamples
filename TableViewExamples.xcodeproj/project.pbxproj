@@ -13,6 +13,9 @@
 		1C1189EB1D9D7AE500338FE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C1189EA1D9D7AE500338FE7 /* Assets.xcassets */; };
 		1C1189EE1D9D7AE500338FE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C1189EC1D9D7AE500338FE7 /* LaunchScreen.storyboard */; };
 		1C1189F71D9D7F7800338FE7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1189F61D9D7F7800338FE7 /* FirstViewController.m */; };
+		1C5687751DA0F2C50032AF77 /* ContactCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5687741DA0F2C50032AF77 /* ContactCell.m */; };
+		1C5687781DA0F49B0032AF77 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5687771DA0F49B0032AF77 /* Contact.m */; };
+		1C56877B1DA0FBBF0032AF77 /* ContactDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C56877A1DA0FBBF0032AF77 /* ContactDetailsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		1C1189EF1D9D7AE500338FE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C1189F51D9D7F7800338FE7 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		1C1189F61D9D7F7800338FE7 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		1C5687731DA0F2C50032AF77 /* ContactCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactCell.h; sourceTree = "<group>"; };
+		1C5687741DA0F2C50032AF77 /* ContactCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactCell.m; sourceTree = "<group>"; };
+		1C5687761DA0F49B0032AF77 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		1C5687771DA0F49B0032AF77 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		1C5687791DA0FBBF0032AF77 /* ContactDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactDetailsViewController.h; sourceTree = "<group>"; };
+		1C56877A1DA0FBBF0032AF77 /* ContactDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactDetailsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +76,12 @@
 				1C1189EC1D9D7AE500338FE7 /* LaunchScreen.storyboard */,
 				1C1189EF1D9D7AE500338FE7 /* Info.plist */,
 				1C1189DE1D9D7AE500338FE7 /* Supporting Files */,
+				1C5687731DA0F2C50032AF77 /* ContactCell.h */,
+				1C5687741DA0F2C50032AF77 /* ContactCell.m */,
+				1C5687761DA0F49B0032AF77 /* Contact.h */,
+				1C5687771DA0F49B0032AF77 /* Contact.m */,
+				1C5687791DA0FBBF0032AF77 /* ContactDetailsViewController.h */,
+				1C56877A1DA0FBBF0032AF77 /* ContactDetailsViewController.m */,
 			);
 			path = TableViewExamples;
 			sourceTree = "<group>";
@@ -149,8 +164,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C5687751DA0F2C50032AF77 /* ContactCell.m in Sources */,
 				1C1189E31D9D7AE500338FE7 /* AppDelegate.m in Sources */,
+				1C5687781DA0F49B0032AF77 /* Contact.m in Sources */,
 				1C1189F71D9D7F7800338FE7 /* FirstViewController.m in Sources */,
+				1C56877B1DA0FBBF0032AF77 /* ContactDetailsViewController.m in Sources */,
 				1C1189E01D9D7AE500338FE7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
